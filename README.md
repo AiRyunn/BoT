@@ -1,6 +1,6 @@
 # Bag of Tricks for Node Classification with Graph Neural Networks
 
-The official implementation of [Bag of Tricks for Node Classification with Graph Neural Networks](https://arxiv.org/abs/2103.13355) (Best Paper Award at DLG-KDD'21 workshop) based on [Deep Graph Library](https://www.dgl.ai/).
+The official implementation for [Bag of Tricks for Node Classification with Graph Neural Networks](https://arxiv.org/abs/2103.13355) (Best Paper Award at DLG-KDD'21 workshop) based on [Deep Graph Library](https://www.dgl.ai/).
 
 ## Dependencies
 
