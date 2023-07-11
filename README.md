@@ -4,7 +4,7 @@ The official implementation for [Bag of Tricks for Node Classification with Grap
 
 ## Dependencies
 
-* dgl 0.5 or later versions
+* dgl 0.5.*
 * torch 1.6.0
 * ogb 1.3.1
 
@@ -16,7 +16,7 @@ Run
 
 ```bash
 cd src/no-sampling/
-python3 run.py [args]
+python3 src/no-sampling/run.py [args]
 ```
 
 For example,
@@ -25,9 +25,7 @@ For example,
 python3 run.py --optimizer=rmsprop --lr=0.002 --loss=loge --labels --mask-rate=0.5 --model=gat --linear --n-heads=3 --n-hidden=250 --dropout=0.75 --input-drop=0.25 --attn-drop=0.1 --norm-adj=symm
 ```
 
-The description of the arguments can be found by running `python3 run.py --help`.
-
-More details of the hyperparameters are given at the end of `run.py`.
+More details of the hyperparameters and experimental results can be found at the end of `run.py`.
 
 ### ogbn-proteins
 
