@@ -16,7 +16,7 @@ Run
 
 ```bash
 cd src/no-sampling/
-python3 src/no-sampling/run.py [args]
+python3 run.py [args]
 ```
 
 For example,
