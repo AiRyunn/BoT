@@ -2,6 +2,8 @@
 
 The official implementation for [Bag of Tricks for Node Classification with Graph Neural Networks](https://arxiv.org/abs/2103.13355) (Best Paper Award at DLG-KDD'21 workshop) based on [Deep Graph Library](https://www.dgl.ai/).
 
+For our theoretical analysis of the label trick, please refer to [Why Propagate Alone? Parallel Use of Labels and Features on Graphs](https://arxiv.org/abs/2110.07190) (ICLR 2022).
+
 ## Dependencies
 
 * dgl 0.5.*
